@@ -1,0 +1,25 @@
+Here are some SQL questions you can practice with using the given table schema:
+Basic Selection and Filtering:
+	1	Retrieve the Artist, Track, and Energy for all tracks with Energy above 0.8.
+	2	Find the Album title, Artist, and Track for all albums of type "single".
+	3	List the Url_Spotify, Track, and Danceability for the 5 tracks with the highest Danceability.
+	4	Display the Artist, Album, and total number of tracks for each album.
+	5	Show the Artist, Track, and Duration_ms for the longest track.
+Combining Data:
+	6	Join the Spotify and YouTube data to display Artist, Track, Url_Spotify, and Views for each track. Handle cases where there might not be corresponding YouTube data.
+	7	Combine the Spotify and YouTube data to calculate the average Views per track for each Artist.
+Aggregation and Grouping:
+	8	Find the average Danceability, Energy, and Valence for each Artist.
+	9	Calculate the total number of tracks, total Views, and average Likes for each Channel.
+	10	Group the tracks by Album_type and count the number of tracks in each group.
+Conditional Logic and Subqueries:
+	11	Retrieve the Artist, Track, and Album for all tracks that are both licensed and have an official video.
+	12	Find the Artist and Track for the track with the highest Likes-to-Views ratio.
+	13	List the Artist, Track, and Danceability for tracks that have a higher Danceability than the average Danceability across all tracks.
+Text-Based Queries:
+	14	Search for tracks whose titles contain the word "love".
+	15	Filter tracks based on descriptions that mention specific genres (e.g., "rock", "pop").
+Additional Challenges:
+	16	Identify tracks that have similar audio characteristics based on features like Danceability, Energy, and Tempo.
+	17	Explore relationships between audio features and YouTube metrics (Views, Likes, Comments).
+	18	Create meaningful visualizations to represent the data and insights gained from your queries.

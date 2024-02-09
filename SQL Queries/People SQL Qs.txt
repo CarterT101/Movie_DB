@@ -1,0 +1,28 @@
+Here are some PostgreSQL questions to practice querying the data, without revealing answers:
+Basic Queries:
+	1	Retrieve all columns for all records in the table.
+	2	Retrieve only the names and popularity scores.
+	3	Find the names of people with a popularity score greater than 90.
+	4	Count the number of people in each gender category.
+	5	Retrieve the names and known_for_departments of people who are not adults.
+	6	Find the average popularity score for people in each known_for_department.
+	7	List the names of people in descending order of popularity.
+	8	Retrieve the names and popularity scores of the top 5 most popular people.
+Filtering and Sorting:
+	9	Find the names of people in the "Acting" department, sorted alphabetically.
+	10	Retrieve the names of people with a popularity score between 70 and 90, sorted by popularity in descending order.
+	11	Find the average popularity score for people who are not adults, grouped by gender.
+Aggregation and Grouping:
+	12	Find the total number of people in the table.
+	13	Calculate the minimum, maximum, and average popularity scores.
+	14	Find the most popular known_for_department (i.e., the department with the highest total popularity score).
+	15	Identify the gender with the highest average popularity score.
+Joins (if applicable):
+	16	If you have another table containing additional information about these people (e.g., birthdate, biography), create a query that joins the two tables to retrieve a combined set of information.
+Additional Challenges:
+	17	Write a query to find the names of people who share the same known_for_department as the most popular person in the table.
+	18	Create a query to identify the gender with the largest difference between its highest and lowest popularity scores.
+Remember:
+	•	Use appropriate clauses for selection (SELECT), filtering (WHERE), sorting (ORDER BY), grouping (GROUP BY), and aggregation (COUNT, SUM, AVG, MAX, MIN).
+	•	Consult PostgreSQL documentation or resources for syntax and function details if needed.
+	•	Experiment with different query combinations to explore the data further.
